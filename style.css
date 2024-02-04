@@ -1,0 +1,167 @@
+body 
+{
+    background-image: url(./BackGround/ilha.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: block;
+}
+.container
+{
+    display: flex;
+    
+}
+
+.container .sound
+{
+    background-image: url(./Icons/sound_off.png);
+    background-position: center;
+    background-size: cover;
+    width: 40px;
+    height: 30px;
+    border-radius: 8%;
+}
+
+.container .div1 .side1 .sound
+{
+    width: 0px;
+    height: 0px;
+}
+
+.div1
+{
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    padding: 1%; /* Margem interna da DIV*/
+    width: 30vw;
+    min-width: 40vw;
+    height: 280px;
+    border-radius: 8%;
+    background-color:rgba(5, 5, 5, 0.8);
+    overflow: hidden;
+    margin-left: 10vw;
+    
+    
+}
+
+
+.div1 .side1
+{
+    display: flex;
+    color: rgb(250, 250, 250);
+    flex-direction: column; /*Garante que a imagem e o texto estejam em coluna */
+    align-items: center; /* Centraliza os itens na direção transversal */
+    
+}
+
+.div1 .side1 .side2 img
+{
+    
+    width: 60px;
+    height: 7vh;
+   
+}
+.side2
+{
+    display: flex;
+}
+.text_block
+{
+    height: 200px;
+    
+}
+.div2
+{
+    display: block;
+    padding: 0.1%; /* Margem interna da DIV*/
+    border-radius: 2%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    height: 215px;
+    background-color:rgba(5, 5, 5, 0.8);
+    
+}
+.div2 .pers_geral
+{
+    display: flex;
+    margin: 1%; 
+    
+}
+
+.div2 .pers_geral2
+{
+    display: flex;
+    margin: 1%; 
+    height: 80px;
+}
+
+.div3
+{
+    align-self: last baseline;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    margin-left: 8%;
+    width: 300px;
+    height: 320px;
+   
+}
+
+@media screen and (max-width: 599px) 
+{
+    .container
+    {
+        display: block;
+        
+        
+    }
+    .div1
+    {
+        
+        width: 80vw;
+        height: 300px;
+    }
+    .div3
+    {
+       margin: auto;
+       background-size: 65%;
+       width: 300px;
+       height: 260px;
+    }
+    
+    .mk1_symbol
+    {
+        
+        margin-left: 3px;
+    }
+
+    .side1
+    {
+        display: flex;
+       
+    }
+    .container .sound
+    {
+        width: 0px;
+        height: 0px;
+        
+    }
+    
+    .div1 .side1 .side2 img
+    {
+        margin-left: 130px;
+        margin-top: 5px;
+    }
+    .container .div1 .side1 .side2 .sound
+    {
+        margin-left: 80px;
+        margin-top: 5px;
+        width: 30px;
+        height: 20px;
+    }
+
+    
+}
+    
