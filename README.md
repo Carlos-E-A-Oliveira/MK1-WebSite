@@ -7,4 +7,3 @@
  ![Texto Alternativo](Modelo.png)
  <br><br>
  Um dos meus primeiros projetos em Html5, Css3 e JS. Muita pesquisa pra chegar no resultado apresentado.
->>>>>>> 70a1f8091ec27e806541117c9c3933a55eeee54c
