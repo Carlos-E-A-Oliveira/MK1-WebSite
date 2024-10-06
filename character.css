@@ -1,0 +1,108 @@
+.p1
+{
+    margin: 0.3%; 
+    width:6vw;
+    height: 80px;
+    background-image: url(./Personagem/fundo.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid transparent;
+    
+}
+
+.p2
+{
+    margin: 0.3%; 
+    width:6vw;
+    height: 80px;
+    background-image: url(./Personagem/scorpion.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid transparent;
+}
+.p3
+{
+    margin: 0.3%; 
+    width:6vw;
+    height: 80px;
+    background-image: url(./Personagem/sub_zero.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid transparent;
+}
+
+.p4
+{
+    margin: 0.3%; 
+    width:6vw;
+    height: 80px;
+    background-image: url(./Personagem/raiden.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid transparent;
+}
+
+.p5
+{
+    margin: 0.3%; 
+    width:6vw;
+    height: 80px;
+    background-image: url(./Personagem/reptile.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid transparent;
+}
+
+.p6
+{
+    margin: 0.3%; 
+    width:6vw;
+    height: 80px;
+    background-image: url(./Personagem/liu_kang.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid transparent;
+}
+
+.p7
+{
+    margin: 0.3%; 
+    width:6vw;
+    height: 80px;
+    background-image: url(./Personagem/jonny.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid transparent;
+}
+
+
+.p2, .p3, .p4, .p5, .p6, .p7 {
+    cursor: pointer;
+    transition: filter 0.3s;
+}
+
+.p2:hover, .p3:hover, .p4:hover, .p5:hover, .p6:hover, .p7:hover {
+    animation: piscar 1s infinite;
+}
+
+@keyframes piscar {
+    
+    0%, 100% {
+        filter: brightness(1);
+        border-color: rgba(255, 0, 0, 0.411);
+        
+        
+    }
+    50% {
+        filter: brightness(0);
+        
+        
+    }
+}
